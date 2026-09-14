@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
         val buildType = BuildConfig.BUILD_TYPE
         val baseUrl = BuildConfig.BASE_URL
 
-        Log.d("onCreate App_test!","build type : $buildType / base url = $baseUrl")
+        Log.d("onCreate App_test","build type : $buildType / base url = $baseUrl")
 
         enableEdgeToEdge()
         setContent {
